@@ -13,4 +13,4 @@ s = socket.create_connection(addr)
 while True:
 	data = s.recv(1024)
 	print('sending', data)
-	notify_send(data, t=2000)
+	notify_send(data, t=5000)
